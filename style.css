@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.ec-stars-wrapper {
+  font-size: 0;
+  float: left;
+  position: relative;
+}
+.ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-size: 2rem;
+  /* color: #888; */
+  color: #dcd9e9;
+}
+
+.ec-stars-wrapper:hover a {
+  color: #ffa400;
+}
+.ec-stars-wrapper a:hover ~ a {
+  color: #888;
+}
+
+.title {
+  /* border: 1px solid black; */
+  font-size: 50px;
+  /* color: #1365a3; */
+  color: #38259b;
+  font-family: fantasy;
+}
+.contain_title {
+  height: 70px;
+  /* background-color: white; */
+  text-align: center;
+}
+.container {
+  /* background: black; */
+  background: #797d7f;
+  height: 570px;
+  position: relative;
+}
+.contain_date {
+  position: absolute;
+  margin-left: 25%;
+  width: 700px;
+  height: 500px;
+  display: flex;
+}
+.imgs {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+.califica {
+  display: inline-block;
+  font-size: 32px;
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #b3b2b6;
+  font-family: cursive;
+}
+.star {
+  display: inline-block;
+  font-size: 32px;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.text {
+  float: left;
+  margin-left: 30px;
+  margin-top: 18px;
+}
+.boton1 {
+  background-image: url("img/siguiente.png");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px solid;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+.boton2 {
+  background-image: url("img/atras.png");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px solid;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+.boton1:focus,
+.boton2:focus {
+  outline: none;
+}
+.content_footer {
+  background: #1a1823;
+  height: 100px;
+}
+.text_valoracion {
+  font-size: 20px;
+  color: #9086bf;
+}
